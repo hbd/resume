@@ -82,7 +82,7 @@ disable404 = true
         [[params.education.list]]
         degree = "BSA in Computer Science"
         college = "University of Texas at Austin"
-        dates = "2013 - 2018"
+        dates = "2015 - 2018"
 
     # Languages section
     [params.languages]
@@ -121,8 +121,55 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        title = "About Me"
+        summary = "**I began my career in** software development during an internship at [Agrarian Labs](https://www.linkedin.com/company/agrarian-labs-llc) (a Go shop) building a mobile app using [gomobile](https://github.com/golang/mobile) and React Native on Android. This was my first professional programming experience, giving me incredible experiences working with Golang, Docker, and as part of a team.\n\nSince then, I have led development of the [GroupThreads Mobile Dash](https://itunes.apple.com/us/app/groupthreads-dash/id1162856658?mt=8) where I gained in-depth knowledge of React Native, Node.js, JavaScript, and microservice architectures."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+        intro = "These are skills I've honed and where or how I developed them - most of them I'm still working on! The rating represents my confidence in the skills (relative to the other skills)."
+
+        [[params.skills.list]]
+        skill = "React Native & iOS"
+	tagline = "Experience building a mobile app for distributed sales team; Redux, sagas"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "JavaScript, Node.js, ReactJS"
+	tagline = "Maintaining SailsJS BE (Express), building a mobile app using a REST API"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Docker, Rancher"
+	tagline = "Building microservice architectures for mobile and web apps"
+        level = "60%"
+
+	[[params.skills.list]]
+        skill = "SQL (SQLite, Postgres), NoSQL (MongoDB)"
+	tagline = "Used SQL to manage high throughput of sensor data on an Android app; using NoSQL as part of a MEAN stack"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "Golang"
+	tagline = "8 month internship building a mobile app in Go with [gomobile](https://github.com/golang/mobile), working with a Go REST API, writing a test suite for BE in Go; given 4 talks at North Austin Golang Meetup"
+        level = "45%"
+
+	[[params.skills.list]]
+        skill = "Java, Android"
+	tagline = "GPS, bluetooth, Wifi, 3/4G APIs used in primarily golang Android app"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "C"
+	tagline = "Data structures, operating systems, synchonization and threads, operating systems"
+        level = "35%"
+
+        [[params.skills.list]]
+        skill = "Elasticsearch"
+	tagline = "Setup Elasticsearch microservice synced with pre-existing MongoDB collections"
+        level = "25%"
 
     # Experiences section
     [params.experiences]
@@ -131,84 +178,58 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Lead Mobile Developer"
+        dates = "8-16 to 1-17"
+        company = "GroupThreads, Austin"
+	url = "//groupthreads.com"
+        details = "* Experience building a cross-platform mobile app in React Native for an internal sales team\n* Interfacing with a Node backend (SailsJS); experience maintaining the current web app built on a MEAN stack; assist in DevOps, using Docker and AWS\n* Responsible for full development cycle, including distribution, testing, and feedback"
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
-
-        [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Mobile Developer - Intern"
+        dates = "1-16 to 8-16"
+        company = "Agrarian Labs, Austin"
+	url = "//leaf.ag"
+        details = "* Built a cross-platform mobile blackbox application in Golang (gomobile) and Java to monitor location, orientation, iBeacon devices, and more, on 10,000+ acre farms\n* Interfaced with Golang REST API for mobile app; maintained test-suite in Golang to provide full coverage of API\n* Managed complete ownership of project through scrum process, resposible for maintaining JIRA stories, and working with both back and front-end teams"
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Co.University"
+        url = "http://co.university/"
+        tagline = "A repository of startups founded by students.\n\n* Designed and built a visual directory of startups started by UT students and alum.\n* Built with Meteor, using a React front-end, with Node and MongoDB on backend"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "Cut the Sht"
+        url = "http://www.cutthesht.com/"
+        tagline = "A Chrome Extension that allows you to change words across the web. It's a fork of the popular Cloud to Butt extension, which traverses nodes in the DOM to find matching words. [View the source](https://github.com/hbd/cut-the-shit)."
 
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
-
-    # Skills section
-    [params.skills]
+    # Projects section
+    [params.leadership]
         enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        icon = "fa-users"
+        title = "Leadership"
 
-        [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        [[params.leadership.list]]
+        position = "Organizer & Regular Speaker"
+        dates = "3-16 to Present"
+        company = "North Austin Golang Meetup, Texas"
+        details = "* Regular attendee; I’ve presented [4 talks](https://github.com/hbd/talks/tree/master/go) on topics including Gomobile and Go basics\n* Marketed and organize monthly meetup while working at Agrarian Labs"
 
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        [[params.leadership.list]]
+        position = "VP of Community Engagement"
+        dates = "5-16 to Present"
+        company = "UT Longhorn Entrepreneurship Agency"
+        details = "* Overseeing 3 programs for student entrepreneurs at UT: Startup Job Fair, Startup Meetup, and Freshman Founders. Members of all 3 total over 10 people\n* Building relationships and partnerships with local and global companies, like Capital Factory and WeWork, to benefit UT students with internships, jobs, and capital\n* Lead the Fall 2016 Startup Job fair which had 18 companies and over 360 students in attendance, and raised $2,800 for UT LEA"
 
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        [[params.leadership.list]]
+        position = "VP of Production"
+        dates = "5-15 to 5-16"
+        company = "UT Longhorn Entrepreneurship Agency"
+        details = "* Managed mailing lists, and refactor and redesign of [UT LEA's website](http://utlea.org/)\n* Leading development of new “studentpreneur” blog reaching the 50,000 UT student base, [GroundUp.Press](http://groundup.press/)"
 
     # Footer section
 
@@ -216,7 +237,7 @@ disable404 = true
     # Please keep the original attribution link when using for your own project.
     # If you'd like to use the template without the attribution,
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
+    #
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
