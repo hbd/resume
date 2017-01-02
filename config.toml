@@ -2,7 +2,7 @@
 
 baseurl = "https://www.zakkeener.me/"
 languageCode = "en-us"
-title = "Zak's Resume"
+title = "Zachary Keener's Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -14,7 +14,7 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Resume of Software Develoepr Zachary Keener"
+    description = "Resume of Software Developer Zachary Keener"
     author = "Zachary Keener"
 
 # Theme styles
