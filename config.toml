@@ -198,6 +198,11 @@ disable404 = true
         title = "Projects"
 
         [[params.projects.list]]
+        title = "Boxr"
+        url = "https://devpost.com/software/boxr"
+        tagline = "Boxr detects your boxing movements in real-time. I made the dashboard that is visible in [this demostration](https://www.facebook.com/MajorLeagueHacking/videos/1282340241816651/). **This won the 2016 MLH Prime Southwest Regional competition.**"
+
+        [[params.projects.list]]
         title = "Co.University"
         url = "http://co.university/"
         tagline = "A repository of startups founded by students.\n\n* Designed and built a visual directory of startups started by UT students and alum.\n* Built with Meteor, using a React front-end, with Node and MongoDB on backend"
